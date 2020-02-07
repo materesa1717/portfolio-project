@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    background: white;
+    text-align: center;
+    font-family: Merriweather;
+}
+.top-div{
+    padding: 10px;
+    background: linear-gradient(to top, salmon,black);
+}
+#title1{
+    padding-top: 30px;
+    -webkit-background-clip: text;
+    color: lightgreen;
+    font-size: 70px;
+    font-family: "sacramento", cursive;
+    line-height: 2;
+    margin: 5 rem auto 0 auto;
+}
+#title2{
+    padding-bottom: 1 rem;
+    color: wheat;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 0;
+    font-weight: normal;
+}
+#title3{
+    padding-top: 0px;
+    color: lightgreen;
+    font-size: 50px;
+    font-style: italic;
+}
+#title7{
+    color: darkolivegreen;
+    font-size: 30px;
+    font-style: italic;
+}
+#title8{
+    color:darkolivegreen;
+    font-size: 20px;
+    font-style: initial;
+}
+#paragraph2{
+    color:rgb(185, 214, 189);
+    font-size: 20px;
+    font-style: initial;
+}
+#title5{
+    color: darkslategrey;
+    font-size: 30px;
+    font-style: initial;
+}
+h1{
+    color: tomato;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#cloud1{
+    position: absolute;
+    left: 400px;
+    right: 700px;
+    animation: moveInright 2s ease-out infinite;
+}
+#cloud2{
+    position: absolute;
+    left: 600px;
+    right: 600px;
+}
+@keyframes moveInRight {
+    0%{
+        opacity: 5;
+        transform: translateX(20rem);
+    }
+    100% {
+        opacity: 5;
+        transform: translateX(0);
+    }
+}
+@keyframes moveInLeft {
+    0%{
+        opacity: 5;
+        transform: translateX(20rem);
+    }
+    100% {
+        opacity: 5;
+        transform: translateX(0);
+    }
+}
+.mid-div{
+    padding: 60px;
+}
+#profile{
+    border-radius: 50%;
+    width: 20%;
+    height: 200px;
+}
+p{
+    font-size: 20px;
+    font-family: cursive;
+}
+#title4{
+    padding-top: initial;
+    color: darkgoldenrod;
+    font-size: 30px;
+    font-family: serif;
+}
+#browser{
+    width: 6%;
+    height: 50px;
+    padding-right:200px;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+#Facebook{
+    width: 4%;
+    height: 30px;
+    position: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#instagram{
+    width: 4%;
+    height: 30px;
+    position: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#gmail{
+    width: 4%;
+    height: 30px;
+    position: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+    color: sienna
+    margin-top: 30px;
+    padding: 30px;
+
+}
+#title9{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-style: italic;
+}
+#house{
+    width: 6%;
+    height: 50px;
+    padding-right:200px;
+    padding-top: 20px;
+}
+#ppt{
+    width: 6%;
+    height: 50px;
+}
+#lr{
+    width: 8%;
+    height: 50px;
+}
+#excel{
+    width: 8%;
+    height: 50px;
+}
+#mountain{
+    position: center;
+}
+#title10{
+    padding-top: initial;
+    color: rgb(240, 172, 0);
+    font-size: 50px;
+    font-family: "sacramento", cursive;
+}
+#title12{
+    color: teal;
+    font-size: 60px;
+    font-family: "sacramento", cursive;
+}
+#dance{
+    left: 300px;
+    width: 55px;
+    height: 80px;
+    padding-right: 0.5px;
+    border-radius: 50%;
+    background-color: rgb(212, 245, 212);
+}
+#coffee{
+    left: 300px;
+    width: 55px;
+    height: 80px;
+    padding-left: 0.5px;
+    border-radius: 50%;
+    background-color: rgb(212, 245, 212);
+}
+#watch{
+    left: 300px;
+    width: 55px;
+    height: 80px;
+    padding-left: 0.5px;
+    border-radius: 50%;
+    background-color: rgb(212, 245, 212);
+    
+}
+#edit{
+    left: 300px;
+    width: 55px;
+    height: 80px;
+    padding-left: 0.5px;
+    border-radius: 50%;
+    background-color: rgb(212, 245, 212);
+    
+}
+.p5{
+    color:white;
+    line-height: 30px;
+    background:Linear-gradient(lightpink,teal);
+
+}
+.p6{
+    color:white;
+    line-height: 30px;
+    background:Linear-gradient(lightpink,teal);
+}
+.p7{
+    color:white;
+    line-height: 30px;
+    background:Linear-gradient(lightpink,teal);
+}
+.p8{
+    color:white;
+    line-height: 30px;
+    background:Linear-gradient(lightpink,teal);
+}
+#mountain{
+    margin: auto;
+    text-align: center;
+    position: initial;
+    display: block;
+    width: 50%;
+}
+#paragraph2{
+    line-height: 10px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+}
+#paragraph4{
+    line-height: 10px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bottom-div{
+    padding: 0;
+    background: linear-gradient(pink,teal);
+    margin: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+footer{
+    color: black;
+    padding: 5px;
+}
